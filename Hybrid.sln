@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hybrid.Client", "src\Hybrid.Client\Hybrid.Client.csproj", "{360AB7B3-A815-4376-B164-ABCFB80B0A71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{73EFC9C2-7C1A-4C30-9501-7E5F34D6CBF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5AEA5A62-5593-45DB-B5C4-9E37919155D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hybrid.IntegrationTest", "test\Hybrid.IntegrationTest\Hybrid.IntegrationTest.csproj", "{2BDDFD5D-9D0D-41C8-A18D-8B24D2E6D2E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hybrid.UnitTest", "test\Hybrid.UnitTest\Hybrid.UnitTest.csproj", "{C2E95240-AD6A-492E-831F-C71B69332D48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hybrid.Core", "src\Hybrid.Core\Hybrid.Core.csproj", "{DC98F132-E850-4644-8ACC-1ACBEDDB9C63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hybrid.Api", "src\Hybrid.Api\Hybrid.Api.csproj", "{8763925C-16DA-485A-840C-7F7A15A60ADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{360AB7B3-A815-4376-B164-ABCFB80B0A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360AB7B3-A815-4376-B164-ABCFB80B0A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360AB7B3-A815-4376-B164-ABCFB80B0A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360AB7B3-A815-4376-B164-ABCFB80B0A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDDFD5D-9D0D-41C8-A18D-8B24D2E6D2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDDFD5D-9D0D-41C8-A18D-8B24D2E6D2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDDFD5D-9D0D-41C8-A18D-8B24D2E6D2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDDFD5D-9D0D-41C8-A18D-8B24D2E6D2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E95240-AD6A-492E-831F-C71B69332D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E95240-AD6A-492E-831F-C71B69332D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E95240-AD6A-492E-831F-C71B69332D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E95240-AD6A-492E-831F-C71B69332D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC98F132-E850-4644-8ACC-1ACBEDDB9C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC98F132-E850-4644-8ACC-1ACBEDDB9C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC98F132-E850-4644-8ACC-1ACBEDDB9C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC98F132-E850-4644-8ACC-1ACBEDDB9C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8763925C-16DA-485A-840C-7F7A15A60ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8763925C-16DA-485A-840C-7F7A15A60ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8763925C-16DA-485A-840C-7F7A15A60ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8763925C-16DA-485A-840C-7F7A15A60ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{360AB7B3-A815-4376-B164-ABCFB80B0A71} = {73EFC9C2-7C1A-4C30-9501-7E5F34D6CBF0}
+		{2BDDFD5D-9D0D-41C8-A18D-8B24D2E6D2E4} = {5AEA5A62-5593-45DB-B5C4-9E37919155D5}
+		{C2E95240-AD6A-492E-831F-C71B69332D48} = {5AEA5A62-5593-45DB-B5C4-9E37919155D5}
+		{DC98F132-E850-4644-8ACC-1ACBEDDB9C63} = {73EFC9C2-7C1A-4C30-9501-7E5F34D6CBF0}
+		{8763925C-16DA-485A-840C-7F7A15A60ADB} = {73EFC9C2-7C1A-4C30-9501-7E5F34D6CBF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C19E04F4-79B5-4956-BFD6-5D2F9C14EB54}
+	EndGlobalSection
+EndGlobal
