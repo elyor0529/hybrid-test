@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 namespace Hybrid.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]/[action]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -36,5 +36,7 @@ namespace Hybrid.Api.Controllers
             })
             .ToArray();
         }
+
+
     }
 }
